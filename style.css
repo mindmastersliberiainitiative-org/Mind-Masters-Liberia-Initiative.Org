@@ -52,3 +52,13 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+/* Announcement Bar Styling */
+.announcement-bar {
+  background-color: var(--accent-gold);
+  color: var(--primary-blue);
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+}
