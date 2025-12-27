@@ -37,3 +37,16 @@ footer {
   transition: 0.3s;
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
+.about-hero {
+  background: url('../images/logo.png') center/300px no-repeat,
+              linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('../images/education-bg.jpg') center/cover no-repeat;
+  height: 60vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.about-hero .overlay {
+  width: 100%;
+}
