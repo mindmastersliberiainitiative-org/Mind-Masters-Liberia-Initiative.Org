@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>About | MMLI</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us | MMLI</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
     <a class="navbar-brand fw-bold" href="index.html">MMLI</a>
@@ -15,65 +18,72 @@
     </button>
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
-  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-  <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-  <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
-  <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
-  <li class="nav-item"><a class="nav-link" href="resources.html">Academic Resources</a></li>
-  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-</ul>
-    <!-- About MMLI Section with Hover Effects -->
-<section id="about" style="padding: 60px 20px; background: #f9fafb; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-  <div style="max-width: 1100px; margin: auto; text-align: center;">
-    <h2 style="font-size: 2.8rem; color: #1f2937; margin-bottom: 15px;">About Mind Masters Liberia Initiative</h2>
-    <p style="font-size: 1.1rem; color: #4b5563; line-height: 1.8; max-width: 900px; margin: auto;">
-      Mind Masters Liberia Initiative (MMLI) is more than an organization; it is a movement dedicated to <strong>“Unleashing the Genius Within.”</strong> 
-      We are committed to transforming Liberia’s future by creating a strong academic culture where learning is respected, exciting, and aspirational.
-    </p>
-    
-    <div style="margin-top: 50px; display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
-      
-      <!-- Vision Card -->
-      <div class="about-card" style="background: #ffffff; padding: 30px; border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.08); flex: 1 1 300px; max-width: 350px; text-align: left; transition: transform 0.3s, box-shadow 0.3s;">
-        <h3 style="color: #111827; font-size: 1.5rem; margin-bottom: 10px;">Our Vision</h3>
-        <p style="color: #4b5563; line-height: 1.6;">
-          To be the <strong>Home of the Serious Thinkers</strong>, where academic excellence is celebrated and intellectual achievements inspire pride.
-        </p>
-      </div>
-      
-      <!-- What We Do Card -->
-      <div class="about-card" style="background: #ffffff; padding: 30px; border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.08); flex: 1 1 300px; max-width: 350px; text-align: left; transition: transform 0.3s, box-shadow 0.3s;">
-        <h3 style="color: #111827; font-size: 1.5rem; margin-bottom: 10px;">What We Do</h3>
-        <ul style="color: #4b5563; line-height: 1.8; padding-left: 20px;">
-          <li><strong>Competitive Excellence:</strong> Quizzes, problem-solving challenges, and debates that turn learning into a sport.</li>
-          <li><strong>Critical Thinking:</strong> Teaching students to ask "Why?" not just "What?", fostering true understanding.</li>
-          <li><strong>Character & Integrity:</strong> Promoting discipline, respect, and ethical academic behavior.</li>
-        </ul>
-      </div>
-      
-      <!-- Community Impact Card -->
-      <div class="about-card" style="background: #ffffff; padding: 30px; border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.08); flex: 1 1 300px; max-width: 350px; text-align: left; transition: transform 0.3s, box-shadow 0.3s;">
-        <h3 style="color: #111827; font-size: 1.5rem; margin-bottom: 10px;">Community Impact</h3>
-        <p style="color: #4b5563; line-height: 1.6;">
-          Through mentorship, shared resources, and nationwide programs, MMLI is building a supportive academic network that shapes the next generation of Liberian leaders.
-        </p>
-      </div>
-      
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="resources.html">Academic Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
     </div>
   </div>
+</nav>
 
-  <style>
-    /* Hover animation for all cards */
-    .about-card:hover {
-      transform: translateY(-10px) scale(1.02);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
-    }
+<!-- ABOUT SECTION -->
+<section class="py-5 mt-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">About Mind Masters Liberia Initiative</h2>
+      <p class="text-muted mt-3">
+        Unleashing the Genius Within
+      </p>
+    </div>
 
-    /* Responsive tweaks */
-    @media (max-width: 900px) {
-      .about-card {
-        max-width: 90%;
-      }
-    }
-  </style>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm hover-shadow p-4">
+          <h5 class="fw-bold">Our Vision</h5>
+          <p>
+            To become the <strong>Home of Serious Thinkers</strong>, where academic excellence,
+            critical thinking, and intellectual achievement are celebrated nationwide.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm hover-shadow p-4">
+          <h5 class="fw-bold">Our Mission</h5>
+          <p>
+            To identify, nurture, and empower young minds through competitions, mentorship,
+            academic resources, and innovation-driven learning programs.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm hover-shadow p-4">
+          <h5 class="fw-bold">Our Core Values</h5>
+          <ul>
+            <li>Excellence</li>
+            <li>Integrity</li>
+            <li>Critical Thinking</li>
+            <li>Discipline</li>
+            <li>Nation Building</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 text-center">
+      <p class="lead">
+        Through nationwide competitions, mentorship programs, and digital learning platforms,
+        MMLI is shaping Liberia’s next generation of thinkers, innovators, and leaders.
+      </p>
+    </div>
+  </div>
 </section>
+
+<footer class="text-center py-3">© 2026 MMLI</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
