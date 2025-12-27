@@ -3,73 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact Us | MMLI</title>
+  <title>Contact | MMLI</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="index.html">MMLI</a>
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="assets/images/logo.png" alt="MMLI Logo" height="45" class="me-2">
+      <span class="fw-bold">Mind Masters Liberia Initiative</span>
+    </a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
         <li class="nav-item"><a class="nav-link" href="resources.html">Academic Resources</a></li>
-        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- CONTACT SECTION -->
-<section class="py-5 mt-5 bg-light">
+<section class="py-5 mt-5">
   <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold">Get in Touch</h2>
-      <p class="text-muted">
-        We’d love to hear from students, schools, partners, and supporters.
-      </p>
-    </div>
+    <h2 class="text-center mb-4">Contact Us</h2>
 
-    <div class="row justify-content-center">
+    <div class="row g-4">
       <div class="col-md-6">
-        <div class="card shadow-sm p-4">
-          <form>
-            <div class="mb-3">
-              <label class="form-label">Full Name</label>
-              <input type="text" class="form-control" placeholder="Your name">
-            </div>
+        <h5>Get in Touch</h5>
+        <p>Email: mindmastersliberia@gmail.com</p>
+        <p>Phone: +231 XXX XXX XXX</p>
+        <p>Location: Monrovia, Liberia</p>
+      </div>
 
-            <div class="mb-3">
-              <label class="form-label">Email Address</label>
-              <input type="email" class="form-control" placeholder="you@example.com">
-            </div>
-
-            <div class="mb-3">
-              <label class="form-label">Message</label>
-              <textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-dark w-100">
-              Send Message
-            </button>
-          </form>
-        </div>
+      <div class="col-md-6">
+        <form>
+          <input class="form-control mb-3" type="text" placeholder="Your Name">
+          <input class="form-control mb-3" type="email" placeholder="Your Email">
+          <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+          <button class="btn btn-primary w-100">Send Message</button>
+        </form>
       </div>
     </div>
-
   </div>
 </section>
 
-<footer class="text-center py-3">© 2026 MMLI</footer>
+<footer class="text-center py-3">© 2026 Mind Masters Liberia Initiative</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-  </html>
+</html>
