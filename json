@@ -1,0 +1,15 @@
+{
+  "name": "Mind Masters Liberia",
+  "short_name": "MMLI",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0a2a43",
+  "theme_color": "#0a2a43",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
