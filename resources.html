@@ -2,33 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Academic Resources | MMLI</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Professional Responsive Navbar -->
+<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <img src="file_000000000b8871f5a04812bd66b260d2.png" alt="MMLI Logo" class="navbar-logo">
-      <span class="ms-2">Mind Masters Liberia Initiative</span>
-    </a>
+    <a class="navbar-brand fw-bold" href="index.html">Mind Masters Liberia Initiative</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
-        <li class="nav-item"><a class="nav-link" href="resources.html">Academic Resources</a></li>
+        <li class="nav-item"><a class="nav-link active" href="resources.html">Academic Resources</a></li>
         <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
@@ -36,65 +31,34 @@
   </div>
 </nav>
 
-
-<!-- Academic Resources Section -->
-<section class="py-5 mt-5 bg-light">
-  <div class="container">
-    <h2 class="section-title text-center mb-5">Academic Resources</h2>
-
-    <p class="text-center mb-4">
-      Download and explore our academic resources, outlines, and official documents for competitions and training programs.
-    </p>
-
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h1 class="mb-4">Academic Resources</h1>
+    <p class="mb-5">Download outlines, rules, and study materials for students.</p>
     <div class="row g-4 justify-content-center">
-
-      <!-- Document Card -->
-      <div class="col-md-4">
-        <div class="card text-center p-3 shadow-sm hover-shadow">
-          <i class="bi bi-file-earmark-pdf-fill fs-1 text-danger mb-3"></i>
-          <h5 class="fw-bold">Junior High Outline</h5>
-          <a href="docs/JuniorHighOutlines.pdf" class="btn btn-outline-danger mt-2" target="_blank">View / Download</a>
-        </div>
+      <div class="col-md-6 col-lg-4">
+        <a href="JuniorHighOutlins.pdf" class="btn btn-outline-primary w-100" target="_blank">Junior High Outline</a>
       </div>
-
-      <div class="col-md-4">
-        <div class="card text-center p-3 shadow-sm hover-shadow">
-          <i class="bi bi-file-earmark-pdf-fill fs-1 text-danger mb-3"></i>
-          <h5 class="fw-bold">Senior High Outline</h5>
-          <a href="docs/SeniorHighOutline.pdf" class="btn btn-outline-danger mt-2" target="_blank">View / Download</a>
-        </div>
+      <div class="col-md-6 col-lg-4">
+        <a href="SeniorhighOutline.pdf" class="btn btn-outline-primary w-100" target="_blank">Senior High Outline</a>
       </div>
-
-      <div class="col-md-4">
-        <div class="card text-center p-3 shadow-sm hover-shadow">
-          <i class="bi bi-file-earmark-pdf-fill fs-1 text-danger mb-3"></i>
-          <h5 class="fw-bold">Math Championship Outline</h5>
-          <a href="docs/MathChampionshipOutline.pdf" class="btn btn-outline-danger mt-2" target="_blank">View / Download</a>
-        </div>
+      <div class="col-md-6 col-lg-4">
+        <a href="MathChampionshipoutline.pdf" class="btn btn-outline-primary w-100" target="_blank">Math Championship Outline</a>
       </div>
-
-      <div class="col-md-4">
-        <div class="card text-center p-3 shadow-sm hover-shadow">
-          <i class="bi bi-file-earmark-pdf-fill fs-1 text-danger mb-3"></i>
-          <h5 class="fw-bold">Rules and Regulations</h5>
-          <a href="docs/RulesAndRegulations.pdf" class="btn btn-outline-danger mt-2" target="_blank">View / Download</a>
-        </div>
+      <div class="col-md-6 col-lg-4">
+        <a href="Rulesandregulations.pdf" class="btn btn-outline-primary w-100" target="_blank">Rules & Regulations</a>
       </div>
-
-      <div class="col-md-4">
-        <div class="card text-center p-3 shadow-sm hover-shadow">
-          <i class="bi bi-file-earmark-pdf-fill fs-1 text-danger mb-3"></i>
-          <h5 class="fw-bold">Playing Card</h5>
-          <a href="docs/PlayingCard.pdf" class="btn btn-outline-danger mt-2" target="_blank">View / Download</a>
-        </div>
+      <div class="col-md-6 col-lg-4">
+        <a href="PLayingCard.pdf" class="btn btn-outline-primary w-100" target="_blank">Playing Card</a>
       </div>
-
     </div>
   </div>
 </section>
 
-<footer class="text-center py-3">© 2026 MMLI</footer>
+<footer class="bg-dark text-white text-center py-3">
+  © 2026 Mind Masters Liberia Initiative
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-  </html>
+</html>
