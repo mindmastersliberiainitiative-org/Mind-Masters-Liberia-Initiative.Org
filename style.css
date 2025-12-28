@@ -143,5 +143,16 @@ footer {
   }
 }
 
+/* =======================
+   IMAGE GALLERY STYLES
+======================= */
+.card img {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
 
